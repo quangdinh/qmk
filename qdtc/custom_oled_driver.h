@@ -1,0 +1,1 @@
+void oled_task_user_once(void);

@@ -1,0 +1,25 @@
+MOUSEKEY_ENABLE 		= no     	# Mouse keys
+EXTRAKEY_ENABLE 		= yes    	# Audio control and System control
+VIA_ENABLE      		= no    	# VIA
+OLED_ENABLE     		= yes
+OLED_DRIVER     		= custom
+LTO_ENABLE      		= yes
+SPLIT_KEYBOARD  		= yes
+RGBLIGHT_ENABLE 		= no
+RGB_MATRIX_ENABLE 	= yes
+WPM_ENABLE 					= yes
+WPM_SAMPLE_SECONDS 	= 10
+WPM_SAMPLE_PERIODS 	= 50
+COMBO_ENABLE				= yes
+SPACE_CADET_ENABLE 	= no
+GRAVE_ESC_ENABLE 		= no 
+MAGIC_ENABLE 				= no
+
+SRC += qmk_main.c 
+SRC += custom_oled_driver.c 
+SRC += oled_handler.c 
+SRC += utils.c 
+SRC += combo.c 
+SRC += custom_keycodes.c 
+SRC += split_handler.c
+SRC += states_handler.c 

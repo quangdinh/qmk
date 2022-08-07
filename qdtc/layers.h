@@ -1,0 +1,8 @@
+enum {
+    LAYER_BASE = 0,
+    LAYER_COLEMAK,
+    LAYER_NUM,
+    LAYER_NAV,
+    LAYER_SETTINGS,
+    LAYER_FUNCTIONS
+};
